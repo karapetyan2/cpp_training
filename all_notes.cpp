@@ -198,7 +198,7 @@ int main() {
 //
 
 
-int main() {
+/*int main() {
 	int x{};	
 	std::cout << "Pleas type number" << std::endl;
 	std::cin >> x;
@@ -212,7 +212,7 @@ int main() {
 
 
 }
-
+*/
 
 
 
