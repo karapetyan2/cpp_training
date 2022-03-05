@@ -4,7 +4,7 @@
 
 int main() {
 	char x;
-	std::cout << "Pleas type something: "; 
+	std::cout << "Please type something: "; 
 	std::cin >> x;
 
 	if((x>='a' && x<='z') || (x>='A' && x<='Z')) {
