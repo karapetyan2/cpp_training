@@ -3,13 +3,12 @@
 #include <iostream>
 
 int main() {
-	int a{};
-	int b{};
-	std::cout << "Pleas input first number: ";
+	int a, b;
+	std::cout << "Please input first number: ";
 	std::cin >>  a;
-	std::cout << "Pleas input second number: ";
+	std::cout << "Please input second number: ";
 	std::cin >>  b;
 
-	std::cout << "Result: " << (a * b);
+	std::cout << "Result: " << (a * b) << endl;
 	return 0;
 }
