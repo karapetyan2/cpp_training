@@ -2,17 +2,16 @@
 #include <iostream>
 
 int main() {
-    int num; 
-    int x{0};
+    int x=0, n;
 
-    std::cout << "Pleas type number: ";
-    std::cin >> num;
+    std::cout << "Please type number: ";
+    std::cin >> n;
 
-    for (int i = 1; i <=num; ++i) {
+    for (int i = 1; i <=n; ++i) {
         x += i;
     }
 
-    std::cout << "Sum in the natural numbers:  " << x;
+    std::cout << "Sum in the natural numbers:  " << x << std::endl;
     return 0;
 }
 
