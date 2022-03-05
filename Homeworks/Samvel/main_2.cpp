@@ -9,6 +9,6 @@ int main() {
 	std::cout << "Please input second number: ";
 	std::cin >>  b;
 
-	std::cout << "Result: " << (a * b) << endl;
+	std::cout << "Result: " << (a * b) << std::endl;
 	return 0;
 }
