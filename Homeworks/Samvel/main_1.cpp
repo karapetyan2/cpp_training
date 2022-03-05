@@ -4,10 +4,10 @@
 
 int main() {
 
-	int a={1};
-	int b={2};
+	int a=1, b=2, c=3;
 
 	std::cout << a << std::endl;
 	std::cout << b << std::endl;
+	std::cout << c << std::endl;
 	return 0;
 }
