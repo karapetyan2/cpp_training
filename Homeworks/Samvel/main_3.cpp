@@ -5,11 +5,11 @@ int main() {
 	int a{};
 	int b{};
 	int c{};
-	std::cout << "Pleas input first number: ";
+	std::cout << "Please input first number: ";
 	std::cin >>  a;
-	std::cout << "Pleas input second number: ";
+	std::cout << "Please input second number: ";
 	std::cin >>  b;
-	std::cout << "Pleas input third number: ";
+	std::cout << "Please input third number: ";
 	std::cin >>  c;
 	
 	std::cout << "" << std::endl;
@@ -22,11 +22,11 @@ int main() {
 	}
 	
 	std::cout << "" << std::endl;
-	if(a = b) {
+	if(a == b) {
 		std::cout << "Equal numbers: " << a << " = " << b << std::endl;
-	}else if(b = c) {
+	}else if(b == c) {
 		std::cout << "Equal numbers: " << b << " = " << c << std::endl;
-	}else if(a = c) {
+	}else if(a == c) {
 		std::cout << "Equal numbers: " << a << " = " << c << std::endl;
 	}
 	return 0;
