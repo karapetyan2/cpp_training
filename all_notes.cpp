@@ -216,3 +216,5 @@ int main() {
 
 
 
+// int-ը bool-ը duble-ը դրանք տիպեր են, իսկ {x, z, true, false}-ը արժեքներ են
+
