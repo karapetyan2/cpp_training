@@ -2,9 +2,7 @@
 #include <iostream>
 
 int main() {
-	int a{};
-	int b{};
-	int c{};
+	int a, b, c;
 	std::cout << "Please input first number: ";
 	std::cin >>  a;
 	std::cout << "Please input second number: ";
@@ -22,7 +20,10 @@ int main() {
 	}
 	
 	std::cout << "" << std::endl;
-	if(a == b) {
+	
+	if((a == b && b == c ) || ( a == c )) {
+		std::cout << "Equal numbers: " << a << " = " << b << " = " << c << std::endl;
+	}else if(a == b) {
 		std::cout << "Equal numbers: " << a << " = " << b << std::endl;
 	}else if(b == c) {
 		std::cout << "Equal numbers: " << b << " = " << c << std::endl;
